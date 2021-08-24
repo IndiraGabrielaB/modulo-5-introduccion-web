@@ -1,0 +1,9 @@
+git init
+git status
+git add .
+git commit -m "Details"
+git push origin master o main
+git branch
+git checkout -b Feat/AddPayButton //Agregamos una nueva rama
+git checkout master //Nos cambiamos de rama
+git merge 
