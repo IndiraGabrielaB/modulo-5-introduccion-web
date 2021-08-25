@@ -1,0 +1,33 @@
+#contenedor {
+    background-color: aqua;
+    height: 750px;
+    width: 850px;
+}
+#menu {
+    background-color: #f5ff90;
+    height: 750px;
+    width: 295px;
+    display:inline-block
+}
+#contenido {
+    background-color: coral;
+    height: 750px;
+    width: 550px;
+    display: inline-block
+}
+#Perfil {
+    background-color: crimson;
+    height: 250px;
+    width: 295;
+}
+#Opciones{
+    background-color:darkmagenta ;
+    height: 400px;
+    width: 295;
+}
+#Settings {
+    background-color:greenyellow;
+    height: 100px;
+    width: 295;
+
+}
