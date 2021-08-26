@@ -1,33 +1,143 @@
-#contenedor {
-    background-color: aqua;
+#contenedor{
+    /*background-color:#F5FF90; */
+    background-color: black;
     height: 750px;
     width: 850px;
 }
-#menu {
-    background-color: #f5ff90;
+
+#menu{
+    background-color:aqua;
     height: 750px;
     width: 295px;
-    display:inline-block
-}
-#contenido {
-    background-color: coral;
+    display: inline-block;
+    vertical-align: top;
+}   
+
+#contenido{
+    background-color:blueviolet;
     height: 750px;
     width: 550px;
-    display: inline-block
+    display: inline-block;
+    vertical-align: top;
 }
-#Perfil {
-    background-color: crimson;
-    height: 250px;
-    width: 295;
-}
-#Opciones{
-    background-color:darkmagenta ;
-    height: 400px;
-    width: 295;
-}
-#Settings {
-    background-color:greenyellow;
-    height: 100px;
-    width: 295;
 
+#perfil{
+    background-color: blanchedalmond;
+    width: 295px;
+    height: 250px;
+}
+
+#opciones{
+    background-color: brown;
+    width: 295px;
+    height: 400px;
+}
+
+#configuracion{
+    background-color: cadetblue;
+    width: 295px;
+    height: 100px;
+}
+
+#foto{
+    background-color:magenta;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50px;
+    position: relative;
+    top: 35px;
+    /*right: 15px;
+    left: 15px;
+    bottom: 0px;*/
+}
+
+#datos-usuario{
+    background-color:green;
+    width: 140px;
+    height: 250px;
+    display: inline-block;
+}
+
+.opcion{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.filas{
+    height: 180px;
+    width: 95%;
+    background-color:white;
+    margin: 5px;
+}
+.separadores{
+    height: 180px;
+    width: 49%;
+    background-color: gray;
+    display: inline-block;
+    vertical-align: top;
+}
+.separadores h4{
+    text-align: right;
+}
+.columna{
+    width: 28%;
+    height: 80%;
+    background-color: greenyellow;
+    display: inline-block;
+    margin: 0px;
+    vertical-align: top;
+}
+.columna h5, .columna h6, .columna p{
+    margin: 0px;
+}
+
+.foto{
+    width: 50px;
+    height: 80px;
+    background-color: hotpink;
+    border-radius: 50%;
+}
+
+.mitad-columna{
+    width: 13%;
+    height: 80%;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+}
+
+.mitad-columna-foto{
+    margin: 0px;
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+    background-color:white;
+    border-radius: 10px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
