@@ -32,12 +32,12 @@ let texto2 = "Indi"
 console.log(texto1 + texto2)
 
 //Ejercicio 5
-let na = "5"
-let nb = "3"
-let nc = "7"
-let nd = "5 + 3 + 7 ="
+let a = "5"
+let b = "3"
+let c = "7"
+let d = a + b + c
 
-console.log (na + " + " + nb + " + " + nc + " = " + nd)
+console.log(a + " + " + b + " + " + c + " = " + d)
 
 //Ejercicio 6
 let usuario1 = { nombre: "juan", apellido: "perez" }
@@ -69,20 +69,5 @@ if {m == 1) {
     console.log("Hola, " + usuario7.nombre +" "+ usuario7.apellido)
 }else if(m == 8){
     console.log("Hola, " + usuario8.nombre + " " + usuario8.apellido)
-}else{
-    console.log("Faltan datos")
 }
-
-let usuarios = [usuario1, usuario2, usuario3, usuario4, 
-    usuario5, usuario6, usuario7, usuario8]
-
-    
-if (n <= usuarios.length) {
-
-    console.log("Hola con arreglo, " + usuarios[n-1].nombre + " " + usuarios[n-1].apellido)    
-
-}else{
-
-    console.log("Usuario no registrado")
-
-}
+alert(saludo + nombre)
