@@ -49,25 +49,38 @@ let usuario6 = { nombre: "camila", apellido: "lopez" }
 let usuario7 = { nombre: "carlos", apellido: "gutierrez" }
 let usuario8 = { nombre: "sergio", apellido: "chacon" }
 
-m = 5
+n = 8
 
-if {m == 1) {
+if {n == 1) {
     console.log("Hola, " + usuario1.nombre + " " + usuario1.apellido)
-}else if(m == 2){
+}else if(n == 2) {
     console.log("Hola, " + usuario2.nombre + " " + usuario2.apellido)
-}else if(m == 3){
+}else if(n == 3) {
     console.log("Hola, " + usuario3.nombre + " " + usuario3.apellido)
-}else if(m == 4){
+}else if(n == 4) {
     console.log("Hola, " + usuario4.nombre + " " + usuario4.apellido)
-}else if(m == 5){
+}else if(n == 5) {
     console.log("Hola, " + usuario5.nombre + " " + usuario5.apellido)
-}else if(m == 6){
+}else if(n == 6) {
     console.log("Hola, " + usuario6.nombre + " " + usuario6.apellido)
-}else if(m == 7){
+}else if(n == 7) {
     console.log("Hola, " + usuario6.nombre + " " + usuario6.apellido)
-}else if(m == 7){   
+}else if(n == 7) {   
     console.log("Hola, " + usuario7.nombre +" "+ usuario7.apellido)
-}else if(m == 8){
+}else if(n == 8) {
     console.log("Hola, " + usuario8.nombre + " " + usuario8.apellido)
+}else{
+    console.log("Usuario no registrado")
 }
-alert(saludo + nombre)
+
+//Arreglo / Array
+
+let usuarios =[usuario1, usuario2, usuario3,usuario4
+               usuario5, usuario6, usuario7, usuario8]
+//  8 <= 8
+if (n <= usuarios.length) {
+    console.log("Hola con arreglo, " + usuarios[n-1].nombre + " " + usuarios[n-1].apellido)    
+}else{
+    console.log("Usuario no registrado")
+}
+
